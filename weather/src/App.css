@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(8, 2, 14);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.order{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.area{
+  margin-right: 55px;
+}
+
+.city{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  padding: 10px;
+}
+
+
+.search-icon{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-icon img{
+  width: 20px;
+}
+
+.image{
+  text-align: center;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.image img{
+  width: 100px;
+  height: 100px;
+}
+
+.temp,.location,.country{
+  text-transform:capitalize;
+  font-size: 30px;
+  margin-left: 55px;
+}
+
+.temp{
+  font-weight: 1000;
+}
+
+.location{
+  color: rgb(11, 11, 141);
+}
+
+.country{
+  font-size: 20px;
+  color: rgb(72, 64, 5);
+}
+
+.cord{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.cord div{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.cord div span{
+  font-size: 15px;
+}
+
+.cord div span:nth-child(2),.humidity-percent,.wind-percent{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.data-container{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.element{
+  text-align: center;
+}
+
+.icon{
+  width: 50px;
+}
+
+.text{
+  color: rgb(106, 28, 28);
+  font-size: 15px;
+}
+
+.owner{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  text-align:right
+}
+
+.owner span{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+}
+
+.loading-message,.error-message,.city-not-found{
+  margin-top: 25px;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
